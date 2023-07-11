@@ -59,9 +59,10 @@ margin-bottom: 30px;
     background-color: white;
 }
 .second_one{
+    margin-top: 50px;
     font-family: 'Lato';
     text-align: center;
-    padding: 25px 400px 25px 400px;
+    padding: 25px 400px 25px;
 }
 .second_one p{
     font-size: 14px;
@@ -110,15 +111,12 @@ width: 270px;
     padding: 40px 30px 0px;
 }
 .second_three{
-    margin-top: 20px;
+    margin: 30px 150px 60px;
     display: flex;
     justify-content: space-between;
     background-color: rgba(39, 39, 39, 0.05);
-    padding: 50px 250px 50px 250px;
-    width: 500px;
-    margin-left: 100px;
-    margin-right: 100px;
-    margin-bottom: 40px;
+    padding: 40px 50px 40px;
+    width: 800px;
 
 }
 .second_three .s4 img{
@@ -131,97 +129,113 @@ width: 270px;
     padding-left: 20px;
 }
 .banner2{
+    height: 500px;
     display: flex;
+    /* align-items: center; */
     justify-content: space-between;
     border-radius: 8px;
 background-color: rgba(229, 84, 115, 0.05);
 }
 .right2 img{
-    height: 500px;
-    width: 380px;
+    height: 350px;
+    width: 280px;
     flex-shrink: 0;
 }
 
 .right2{
-    margin-top: 80px;
-    margin-right: 160px;
+    margin: 80px 120px 0px 60px;
 }
 .left2{
-    justify-content: center;
-    margin-top: 100px;
-    margin-left: 160px;
+    margin: 100px 20px 100px 100px;
+    text-align: center;
+    /* margin-top: 100px;
+    margin-left: 160px; */
 }
 .banner2 h1{
-    font-family: Lato;
-font-size: 55px;
-font-style: normal;
-font-weight: 800;
-line-height: normal;
-/* display: flex; */
-flex-direction: column;
-flex-shrink: 0
+    font-family: 'Lato';
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 800;
+    flex-direction: column;
+    flex-shrink: 0
+}
+.banner2 h1 > span{
+    color: #E55473;
 }
 .banner2 > p{
-    font-size: 12px;
+    font-size: 10px;
     display: flex;
-font-weight: 400;
-line-height: 20px;
+    font-weight: 400;
 }
 .btn2{
     display: inline-flex;
-padding: 15px 33px;
-align-items: flex-start;
-gap: 10px;
-border-radius: 8px;
-background-color: #E55473;
-font-size: 20px;
-font-style: normal;
-font-weight: 700;
-line-height: normal;
-color: #fff;
-margin-bottom: 30px;
-margin: 20px 120px 0px;
-}
-.btn3{
-align-items: center;
-padding: 15px 33px;
-align-items: flex-start;
-gap: 10px;
-border-radius: 8px;
-background-color: #E55473;
-font-size: 20px;
-font-style: normal;
-font-weight: 700;
-line-height: normal;
-color: #fff;
-margin-bottom: 30px;
-margin: 20px 120px 50px;
-justify-content: space-between;
+    padding: 15px 33px;
+    align-items: flex-start;
+    gap: 10px;
+    border-radius: 8px;
+    background-color: #E55473;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    color: #fff;
+    margin-bottom: 30px;
+    margin: 20px 120px 0px;
 }
 .third{
-    align-items: center;
+    /* align-items: center; */
     display: flex;
     justify-content: space-between;
+    margin: 20px 150px 20px;
 
 }
 .third img{
-    margin: 30px 40px 30px;
-width: 200px;
+    margin: 30px 0px 30px;
+    width: 200px;
 }
 .last{
-    height: 300px;
+    height: 400px;
+    width: 900px;
+    padding-top: 30px;
+    margin: 60px 150px 80px;
+    background-image: url('/assets/Rectangle\ 9.png');
+
 }
 .l2{
-display: flex;
-justify-content: space-between;
+    display: flex;
+}
+.last_one{
+    margin-top: 50px;
+    font-family: 'Lato';
+    text-align: center;
+    padding: 25px 250px 15px;
 }
 .email{
     margin-top: 20px;
-    margin-left:400px;
+    margin-left:220px;
     width: 400px;
     height: 50px;
+    border: 1px grey;
+    padding-left: 10px;
     text-align: justify;
+    border-radius: 8px;
 }
+.btn3{
+    align-items: center;
+    padding: 15px 20px;
+    align-items: flex-start;
+    gap: 10px;
+    border-radius: 8px;
+    border: 1px grey;
+    background-color: #E55473;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    color: #fff;
+    margin: 20px 15px 50px;
+    justify-content: space-between;
+    }
 footer{
     background-color: #111010;
     text-align: center;
