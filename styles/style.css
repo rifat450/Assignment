@@ -1,3 +1,244 @@
 .primary_font{
     font-family: 'Lato', sans-serif;
+    color: #272727;
+}
+header{
+    background-color: rgba(229, 84, 115, 0.10);
+    height: 580px;
+}
+header .banner{
+    display: flex;
+    justify-content: space-between;
+}
+header .right img{
+    height: 500px;
+    width: 380px;
+    flex-shrink: 0;
+}
+
+header .right{
+    margin-top: 80px;
+    margin-right: 160px;
+}
+header .left{
+    justify-content: center;
+    margin-top: 100px;
+    margin-left: 160px;
+}
+.banner h1{
+    font-family: Lato;
+font-size: 55px;
+font-style: normal;
+font-weight: 800;
+line-height: normal;
+/* display: flex; */
+flex-direction: column;
+flex-shrink: 0
+}
+header > p{
+    font-size: 12px;
+    display: flex;
+font-weight: 400;
+line-height: 20px;
+}
+.btn{
+    display: inline-flex;
+padding: 15px 33px;
+align-items: flex-start;
+gap: 10px;
+border-radius: 8px;
+background-color: #E55473;
+font-size: 20px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+color: #fff;
+margin-bottom: 30px;
+}
+.second{
+    background-color: white;
+}
+.second_one{
+    font-family: 'Lato';
+    text-align: center;
+    padding: 25px 400px 25px 400px;
+}
+.second_one p{
+    font-size: 14px;
+    color: rgba(39, 39, 39, 0.60);
+}
+.second_two{
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 150px 60px;
+}
+.second_two p{
+    padding-left: 75px;
+    text-decoration: underline;
+}
+.s1{
+    border-radius: 300px 300px 0px 0px;
+background-color: rgba(167, 33, 98, 0.15);
+height: 320px;
+width: 270px;
+}
+.s1 img{
+    height: 280px;
+    width: 200px;
+    padding: 40px 30px 0px;
+}
+.s2{
+    border-radius: 300px 300px 0px 0px;
+background-color: rgba(167, 33, 98, 0.15);
+height: 320px;
+width: 270px;
+}
+.s2 img{
+    height: 280px;
+    width: 200px;
+    padding: 40px 30px 0px 50px;
+}
+.s3{
+    border-radius: 300px 300px 0px 0px;
+background-color: rgba(167, 33, 98, 0.15);
+height: 320px;
+width: 270px;
+}
+.s3 img{
+    height: 280px;
+    width: 200px;
+    padding: 40px 30px 0px;
+}
+.second_three{
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    background-color: rgba(39, 39, 39, 0.05);
+    padding: 50px 250px 50px 250px;
+    width: 500px;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-bottom: 40px;
+
+}
+.second_three .s4 img{
+    padding-left: 70px;
+}
+.second_three .s5 img{
+    padding-left: 40px;
+}
+.second_three .s6 img{
+    padding-left: 20px;
+}
+.banner2{
+    display: flex;
+    justify-content: space-between;
+    border-radius: 8px;
+background-color: rgba(229, 84, 115, 0.05);
+}
+.right2 img{
+    height: 500px;
+    width: 380px;
+    flex-shrink: 0;
+}
+
+.right2{
+    margin-top: 80px;
+    margin-right: 160px;
+}
+.left2{
+    justify-content: center;
+    margin-top: 100px;
+    margin-left: 160px;
+}
+.banner2 h1{
+    font-family: Lato;
+font-size: 55px;
+font-style: normal;
+font-weight: 800;
+line-height: normal;
+/* display: flex; */
+flex-direction: column;
+flex-shrink: 0
+}
+.banner2 > p{
+    font-size: 12px;
+    display: flex;
+font-weight: 400;
+line-height: 20px;
+}
+.btn2{
+    display: inline-flex;
+padding: 15px 33px;
+align-items: flex-start;
+gap: 10px;
+border-radius: 8px;
+background-color: #E55473;
+font-size: 20px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+color: #fff;
+margin-bottom: 30px;
+margin: 20px 120px 0px;
+}
+.btn3{
+align-items: center;
+padding: 15px 33px;
+align-items: flex-start;
+gap: 10px;
+border-radius: 8px;
+background-color: #E55473;
+font-size: 20px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+color: #fff;
+margin-bottom: 30px;
+margin: 20px 120px 50px;
+justify-content: space-between;
+}
+.third{
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+
+}
+.third img{
+    margin: 30px 40px 30px;
+width: 200px;
+}
+.last{
+    height: 300px;
+}
+.l2{
+display: flex;
+justify-content: space-between;
+}
+.email{
+    margin-top: 20px;
+    margin-left:400px;
+    width: 400px;
+    height: 50px;
+    text-align: justify;
+}
+footer{
+    background-color: #111010;
+    text-align: center;
+    padding: 50px 400px 40px;
+}
+footer h1{
+    color: #E55473;
+    font-family: 'Lato';
+}
+footer h1 .shop{
+    color:white ;
+}
+footer p{
+    font-family: 'Lato';
+    color: #fff;
+}
+footer .copy{
+    font-family: 'Lato';
+    color: rgba(255, 255, 255, 0.40);
 }
