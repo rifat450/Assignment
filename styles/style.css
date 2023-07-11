@@ -74,7 +74,7 @@ header > p{
 .second_two{
     display: flex;
     justify-content: space-between;
-    padding: 30px 150px 60px;
+    padding: 30px 150px 60px 150px;
 }
 .second_two p{
     padding-left: 75px;
