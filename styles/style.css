@@ -11,48 +11,52 @@ header .banner{
     justify-content: space-between;
 }
 header .right img{
-    height: 500px;
+    height: 530px;
     width: 380px;
     flex-shrink: 0;
 }
 
 header .right{
-    margin-top: 80px;
-    margin-right: 160px;
+    margin-top: 45px;
+    margin-right: 100px;
+    padding-left: 90px;
 }
 header .left{
     justify-content: center;
-    margin-top: 100px;
-    margin-left: 160px;
+    margin-top: 40px;
+    margin-left: 120px;
 }
 .banner h1{
     font-family: Lato;
-font-size: 55px;
-font-style: normal;
-font-weight: 800;
-line-height: normal;
-flex-direction: column;
-flex-shrink: 0
+    font-size: 55px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    flex-direction: column;
+    flex-shrink: 0;
+    padding: 20px 20px 0px 0px;
+
 }
 header > p{
-    font-size: 12px;
+    font-size: 11px;
     display: flex;
-font-weight: 400;
-line-height: 20px;
+    font-weight: 400;
+    line-height: 10px;
 }
 .btn{
     display: inline-flex;
-padding: 15px 33px;
-align-items: flex-start;
-gap: 10px;
-border-radius: 8px;
-background-color: #E55473;
-font-size: 20px;
-font-style: normal;
-font-weight: 700;
-line-height: normal;
-color: #fff;
-margin-bottom: 30px;
+    padding: 15px 33px;
+    align-items: flex-start;
+    gap: 10px;
+    border: 1px grey solid;
+    border-radius: 8px;
+    background-color: #E55473;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    color: #fff;
+    margin-bottom: 30px;
 }
 .second{
     background-color: white;
@@ -78,9 +82,9 @@ margin-bottom: 30px;
 }
 .s1{
     border-radius: 300px 300px 0px 0px;
-background-color: rgba(167, 33, 98, 0.15);
-height: 320px;
-width: 270px;
+    background-color: rgba(167, 33, 98, 0.15);
+    height: 320px;
+    width: 270px;
 }
 .s1 img{
     height: 280px;
@@ -89,9 +93,9 @@ width: 270px;
 }
 .s2{
     border-radius: 300px 300px 0px 0px;
-background-color: rgba(167, 33, 98, 0.15);
-height: 320px;
-width: 270px;
+    background-color: rgba(5, 151, 160, 0.15);
+    height: 320px;
+    width: 270px;
 }
 .s2 img{
     height: 280px;
@@ -100,9 +104,9 @@ width: 270px;
 }
 .s3{
     border-radius: 300px 300px 0px 0px;
-background-color: rgba(167, 33, 98, 0.15);
-height: 320px;
-width: 270px;
+    background-color: rgba(71, 125, 17, 0.15);
+    height: 320px;
+    width: 270px;
 }
 .s3 img{
     height: 280px;
@@ -125,14 +129,14 @@ width: 270px;
     padding-left: 40px;
 }
 .second_three .s6 img{
-    padding-left: 20px;
+    padding-left: 15px;
 }
 .banner2{
     height: 500px;
     display: flex;
     justify-content: space-between;
     border-radius: 8px;
-background-color: rgba(229, 84, 115, 0.05);
+    background-color: rgba(229, 84, 115, 0.05);
 }
 .right2 img{
     height: 350px;
@@ -168,6 +172,7 @@ background-color: rgba(229, 84, 115, 0.05);
     padding: 15px 33px;
     align-items: flex-start;
     gap: 10px;
+    border: 1px grey solid;
     border-radius: 8px;
     background-color: #E55473;
     font-size: 20px;
