@@ -188,13 +188,6 @@ background-color: rgba(229, 84, 115, 0.05);
     margin: 30px 0px 30px;
     width: 200px;
 }
-.last{
-    height: 400px;
-    width: 900px;
-    padding-top: 30px;
-    margin: 60px 150px 80px;
-
-}
 .l2{
     display: flex;
 }
